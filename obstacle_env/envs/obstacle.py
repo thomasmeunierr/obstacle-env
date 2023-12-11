@@ -1,9 +1,9 @@
 from __future__ import print_function, division
 import copy
 import numpy as np
-import gym
-from gym import spaces
-from gym.utils import seeding
+import gymnasium as gym
+from gymnasium import spaces
+from gymnasium.utils import seeding
 
 from obstacle_env.dynamics import Dynamics2D2
 from obstacle_env.graphics import EnvViewer

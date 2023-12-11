@@ -1,7 +1,7 @@
 from __future__ import print_function, division
-from gym import wrappers
-from gym.wrappers import Monitor
-import gym
+from gymnasium import wrappers
+from gymnasium.wrappers import Monitor
+import gymnasium as gym
 
 import obstacle_env
 

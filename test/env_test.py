@@ -1,5 +1,5 @@
 from __future__ import print_function, division
-import gym
+import gymnasium as gym
 
 import obstacle_env
 from obstacle_env.dynamics import Dynamics2D
